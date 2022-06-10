@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDER</title>
+    <style>
+        *{
+            border: 0px;
+            margin: 0px;
+        }
+        .maindiv{
+            display: flex;
+            justify-content: space-between;
+            min-height: 100vh;
+            width: 100%;
+            background-image: url(images/pic15.jpg);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+        .oredernow{
+            flex-basis: 50%;
+            padding: 20px 15px 20px 60px;
+        }
+        .ordernow2{
+            flex-basis: 50%;
+        }
+        .wordings{
+            background-image: url(images/moon.jpeg);
+            padding-right: 40px;
+        }
+       h1{
+           color: red;
+           font-family: algerian;
+       }
+       p{
+           color: white;
+          font-family: algerian;
+       }
+       .button{
+        background-color: blue;
+            padding: 10px 25px 10px 25px;
+            border-radius: 70px;
+            border: none;
+            cursor: pointer;
+            font-family: algerian;
+            color: wihte;
+       }
+       ul{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        flex-basis: 50%;
+        list-style: none;
+        color: red;
+    }
+    
+        
+
+      
+    </style>
+</head>
+<body>
+    <center>
+        <div class="wordings">
+            <div class="navlinks">
+                <ul class="link">
+                    <li><a href="FIAM BAKES.HTML">HOME</a></li>
+                    <li><a href="ABOUT.HTML">ABOUT</a></li>
+                    <li><a href="CAKES MADE.HTML">CAKES MADE</a></li>
+                    <li><a href="PHOTOS.HTML">CAKE PHOTOS</a></li>
+                    <li><a href="CONTACT US.HTML">CONTACT US</a></li>
+                </ul>
+            </div>
+            <h1>
+                FIAM BAKES
+            </h1>
+            <p>
+                FOR QUALITY CAKES.
+            </p>
+            <p>WHY NOT HAVE ARE CAKE TODAY THAN A CAKE TOMMOROW</p>
+        </div>
+    </center>
+   <div class="maindiv">
+      
+    <section class="ordernow">
+        <h1>NORMAL CAKES</h1>
+      <table>
+        <tr>
+            <td>
+                CUSTOMER NAMES
+            </td>
+            <td>
+                <input type="text" placeholder="customer names" id="customer names">
+            </td><br><br><br><br>
+        </tr>
+        <tr>
+            <td>
+                EMAIL ADRESS (REQUIRED)
+            </td>
+            <td>
+                <input type="text" placeholder="email adress" id="example@gmail.com">
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                PHONE NUMBER.
+            </td>
+            <td>
+                <input type="number" placeholder="phone number" id="+256@@@@@@@@@">
+            </td>
+        </tr>
+      <tr>
+          <td>
+            <label for="select">SELECT PRICE</label>
+            <select id="select amount" class="form-control">
+              <option selected>Choose...</option>
+              <option>40,000shs</option>
+              <option>50,000shs</option>
+              <option>60,000shs</option>
+              <option>80,000shs</option>
+              <option>100,000shs</option>
+              <option>120,000shs</option>
+              <option>180,000shs</option>
+              <option>250,000shs</option>
+          </td>
+      </tr>
+
+      <tr>
+          <td>
+            <label for="select">SELECT FLAVOURS</label>
+            <select id="select you flavour" class="form-control">
+              <option selected>Choose...</option>
+              <option>Orange</option>
+              <option>Lemon</option>
+              <option>Mable</option>
+              <option>Blue Berry</option>
+              <option>Vanilla</option>
+              <option>Lemon,Orange, Vanilla</option>
+              <option>Pineapple</option>
+              <option>Red voluvet</option>
+          </td>
+      </tr>
+    <tr>
+        <td>
+            <label for="select">TYPE OF ICING</label>
+            <select id="select you type of icing" class="form-control">
+              <option selected>Choose...</option>
+              <option>Fondant</option>
+              <option>Butter Cream</option>
+        </td>
+    </tr>
+
+      <tr>
+          <td>
+              TYPE IN YOU CAKE COLOR.
+          </td>
+          <td>
+              <input type="text" placeholder="type in your cake color" id="type in your cake color">
+          </td>
+      </tr>
+      <tr>
+          <td>
+            WORDS TO BE WRITTEN ON THE CAKE
+          </td>
+          <td>
+              <input type="text" placeholder="words to be written on the cake" id="words to be written on the cake">
+          </td>
+      </tr>
+      <button class="button">SEND ORDER</button>
+      </table>
+    </section>
+
+    
+    <section class="ordernow2">
+       <table>
+        <h1>WEDDING CAKES</h1>
+        <tr>
+            <td>
+                CUSTOMER NAMES
+            </td>
+            <td>
+                <input type="text" placeholder="customer names" id="customer names">
+            </td>
+        </tr><br><br><br><br>
+        <tr>
+            <td>
+                EMAIL ADRESS (REQUIRED)
+            </td>
+            <td>
+                <input type="text" placeholder="email adress" id="example@gmail.com">
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                PHONE NUMBER.
+            </td>
+            <td>
+                <input type="number" placeholder="phone number" id="+256@@@@@@@@@">
+            </td>
+        </tr>
+      <tr>
+          <td>
+            <label for="select">SELECT PRICE</label>
+            <select id="select amount" class="form-control">
+              <option selected>Choose...</option>
+              <option>100,000shs</option>
+              <option>200,000shs</option>
+              <option>300,000shs</option>
+              <option>350,000shs</option>
+              <option>600,000shs</option>
+              <option>820,000shs</option>
+              <option>1.5Mshs</option>
+              <option>2.5Mshs and ABOVE</option>
+          </td>
+      </tr>
+
+     <tr>
+         <td>
+            <label for="select">SELECT FLAVOURS</label>
+            <select id="select you flavour" class="form-control">
+              <option selected>Choose...</option>
+              <option>Orange</option>
+              <option>Lemon</option>
+              <option>Mable</option>
+              <option>Blue Berry</option>
+              <option>Vanilla</option>
+              <option>Lemon,Orange, Vanilla</option>
+              <option>Pineapple</option>
+              <option>Red voluvet</option>
+         </td>
+     </tr>
+     <tr>
+         <td>
+            <label for="select">TYPE OF ICING</label>
+            <select id="select you type of icing" class="form-control">
+              <option selected>Choose...</option>
+              <option>Fondant</option>
+              <option>Butter Cream</option>
+         </td>
+     </tr>
+
+      <tr>
+          <td>
+              TYPE IN YOU CAKE COLOR.
+          </td>
+          <td>
+              <input type="text" placeholder="type in your cake color" id="type in your cake color">
+          </td>
+      </tr>
+      <tr>
+          <td>
+            WORDS TO BE WRITTEN ON THE CAKE
+          </td>
+          <td>
+              <input type="text" placeholder="words to be written on the cake" id="words to be written on the cake"><br>
+          </td>
+      </tr>
+      <button class="button">SEND ORDER</button>
+       </table>
+    </section>
+   </div>
+</body>
+</html> 

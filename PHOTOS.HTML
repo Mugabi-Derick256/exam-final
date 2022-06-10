@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAKE PHOTOS</title>
+    <style>
+        *{
+            border: 0;
+            margin: 0;
+        }
+        .maindiv{
+            min-height: 100vh;
+            width: 100%;
+            background-image: url(images/cake1.jpg);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+        .page1{
+            flex-basis: 25%;
+            display: flex;
+            justify-content: space-evenly; 
+            border-bottom: 15px solid black;           
+        }
+        .page2{
+            flex-basis: 25%;
+            display: flex;
+            justify-content: space-evenly;
+            border-bottom: 15px solid yellow;             
+        }
+        .page3{
+            flex-basis: 25%;
+            display: flex;
+            justify-content: space-evenly;
+            border-bottom: 15px solid red;             
+        }
+        .page4{
+            flex-basis: 25%;
+            display: flex;
+            justify-content: space-evenly;
+              animation: alternate-reverse; 
+              transition: all;        
+        }
+    .maindiv{
+    flex-basis: 50%;
+    border: 15px solid greenyellow ;
+    }
+    .order{
+        border: 5px solid red;
+        background-color: black;
+    }
+    .order2{
+        border: 12px solid rebeccapurple;
+
+    }
+    .button{
+        border: 5px solid greenyellow;
+        background-color: tomato;
+        cursor: pointer;
+        border-radius: 25px;
+    }
+    .button a:hover{
+        background-color: blueviolet;
+    }
+    ul{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        flex-basis: 50%;
+        list-style: none;
+        color: red;
+    }
+  .navlinks{
+    background-image: url(images/moon.jpeg);
+  }
+  .or{
+    background-image: url(images/moon.jpeg);
+    color: yellow;
+    font-family: algerian;
+  }
+    </style>
+</head>
+    <body>
+        <div class="navlinks">
+            <ul class="link">
+                <li><a href="FIAM BAKES.HTML">HOME</a></li>
+                <li><a href="ABOUT.HTML">ABOUT</a></li>
+                <li><a href="CAKES MADE.HTML">CAKES MADE</a></li>
+                <li><a href="PHOTOS.HTML">CAKE PHOTOS</a></li>
+                <li><a href="CONTACT US.HTML">CONTACT US</a></li>
+            </ul>
+        </div>
+       <div class="order2">
+        <div class="or">
+            <br><label for="PLACE YOUR ORDER NOW"></label>ORDER NOW
+        </div>
+        <div class="order">
+            <input type="text" placeholder="type in your order now" id="type in your order now">
+           <a href="http://derrickdivinepot700@gmail.com"> <button class="button">send order</button></a>
+        </div>
+       </div>        
+    <div class="maindiv">
+        <section class="page1">
+            <img src="images/t10.jpg" width="200PX" height="250PX">
+            <img src="images/t11.jpg" width="200PX" height="250PX">
+            <img src="images/t12.jpg" width="200PX" height="250PX">
+            <img src="images/t13.jpg" width="200PX" height="250PX">
+
+        </section>
+
+    <section class="page2">
+        <img src="images/t14.jpg" width="200PX" height="250PX">
+        <img src="images/t1.jpg"  width="200PX" height="250PX">
+        <img src="images/t2.jpg" width="200PX" height="250PX">    
+        <img src="images/t3.jpg" width="200PX" height="250PX">
+    </section>
+
+    <section class="page3">
+        <img src="images/t4.jpg" width="200PX" height="250PX">
+        <img src="images/t5.jpg" width="200PX" height="250PX">
+        <img src="images/t6.jpg" width="200PX" height="250PX">    
+        <img src="images/t7.jpg" width="200pX" height="250PX">
+    </section>
+
+    <section class="page4">
+        <img src="images/t8.jpg" width="200PX" height="250PX">
+        <img src="images/t9.jpg" width="200PX" height="250PX">
+        <img src="images/t10.jpg" width="200PX" height="250PX">    
+        <img src="images/t11.jpg" width="200PX" height="250PX">
+    </section>
+    </div>
+    </body>
+    </html>
